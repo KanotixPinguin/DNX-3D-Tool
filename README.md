@@ -27,3 +27,24 @@ sudo ./scripts/uninstall.sh
 ## Credit
 Built and developed by DAD833.
 Final state reference: 01.05.2026.
+
+## Wichtiger Hinweis / Important Notice
+
+Diese Erweiterung ist **kein offiziell unterstütztes OpenWebRX+ Upstream-Plugin**.
+Es handelt sich um eine **benutzerdefinierte Modifikation (Custom Patch/Injection)**.
+
+- Kein offizieller Support durch OpenWebRX+ Maintainer
+- Nicht Teil des offiziellen Upstream-Supportumfangs
+- Nutzung auf eigenes Risiko
+- Betrieb, Wartung und Fehlerbehebung liegen vollständig beim Betreiber dieser Modifikation
+
+This extension is **not an officially supported OpenWebRX+ upstream plugin**.
+It is a **custom modification (custom patch/injection)**.
+
+- No official support from OpenWebRX+ maintainers
+- Not part of official upstream support scope
+- Use at your own risk
+- Operation, maintenance, and troubleshooting are fully the responsibility of the operator
+
+Maintainer of this modification: **DAD833**  
+Status date: **01.05.2026**
