@@ -1,4 +1,4 @@
-# DNX 3D Tool Plugin for OpenWebRX+
+# DNX 3D Mod for OpenWebRX+
 
 Author: DAD833  
 Final status date: 01.05.2026
@@ -7,7 +7,7 @@ Final status date: 01.05.2026
 This package installs the custom DNX 3D Tool into OpenWebRX+.
 
 Included:
-- `files/plugin.js` (main plugin)
+- `files/plugin.js` (main modification)
 - `files/help_de_en.html` (Help DE/EN)
 - `scripts/install.sh` (installer)
 - `scripts/uninstall.sh` (uninstaller)
@@ -33,3 +33,4 @@ sudo ./scripts/uninstall.sh
 ## Credit
 Built and developed by DAD833.  
 Final state reference: 01.05.2026
+
