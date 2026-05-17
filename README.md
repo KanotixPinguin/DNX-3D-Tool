@@ -1,3 +1,8 @@
+<img width="1889" height="898" alt="1" src="https://github.com/user-attachments/assets/0221c4be-2bba-4431-9525-e57718f6229b" />
+<img width="1450" height="831" alt="2" src="https://github.com/user-attachments/assets/93322178-42ac-4d0f-8439-bfdefef04715" />
+<img width="1884" height="892" alt="3" src="https://github.com/user-attachments/assets/2931a974-3ccb-4df8-9178-b51629431cc2" />
+<img width="1913" height="918" alt="4" src="https://github.com/user-attachments/assets/e3bb4a90-7016-4886-b22c-8121e71cbc2b" />
+
 > **Important:** This is a custom OpenWebRX+ modification (mod), **not** an official OpenWebRX+ plugin.  
 > No support is provided by upstream maintainers.
 # DNX 3D Mod for OpenWebRX+
@@ -32,13 +37,13 @@ Final state reference: 01.05.2026.
 
 ## Wichtiger Hinweis / Important Notice
 
-Diese Erweiterung ist **kein offiziell unterstütztes OpenWebRX+ Upstream-modification**.
+Diese Erweiterung ist **kein offiziell unterstÃ¼tztes OpenWebRX+ Upstream-modification**.
 Es handelt sich um eine **benutzerdefinierte Modifikation (Custom Patch/Injection)**.
 
 - Kein offizieller Support durch OpenWebRX+ Maintainer
 - Nicht Teil des offiziellen Upstream-Supportumfangs
 - Nutzung auf eigenes Risiko
-- Betrieb, Wartung und Fehlerbehebung liegen vollständig beim Betreiber dieser Modifikation
+- Betrieb, Wartung und Fehlerbehebung liegen vollstÃ¤ndig beim Betreiber dieser Modifikation
 
 This extension is **not an officially supported OpenWebRX+ upstream modification**.
 It is a **custom modification (custom patch/injection)**.
