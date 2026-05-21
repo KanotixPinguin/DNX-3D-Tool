@@ -65,3 +65,145 @@ Examples:
 - owrx-8011
 - owrx-8015
 - owrxp
+
+
+---
+
+# Installation
+
+## Clone repository
+
+git clone https://github.com/KanotixPinguin/DNX-3D-Tool.git
+
+---
+
+## Enter project directory
+
+cd DNX-3D-Tool
+
+---
+
+## Make scripts executable
+
+chmod +x install.sh uninstall.sh
+
+---
+
+## Run installer
+
+./install.sh
+
+Installer automatically detects OpenWebRX containers.
+
+Example:
+
+1) owrx-8010
+2) owrx-8011
+3) owrx-8015
+
+Select container number:
+
+---
+
+## Reload browser
+
+After installation:
+
+CTRL + SHIFT + R
+
+---
+
+# Removal
+
+Run:
+
+./uninstall.sh
+
+
+---
+
+# Runtime Notes
+
+- No OpenWebRX DSP modifications
+- Runtime frontend extension only
+- Persistent localStorage positions
+- Works across multiple OpenWebRX containers
+- DNX frontend ecosystem component
+
+---
+
+# Compatibility
+
+Tested with:
+
+- OpenWebRX+
+- slechev/openwebrxplus-softmbe
+- Docker based OpenWebRX deployments
+
+---
+
+# Troubleshooting
+
+## Old buttons still visible
+
+Run:
+
+./uninstall.sh
+
+Then:
+
+./install.sh
+
+Finally reload browser with:
+
+CTRL + SHIFT + R
+
+---
+
+## Browser cache problems
+
+Use hard reload:
+
+CTRL + SHIFT + R
+
+---
+
+## Multiple OpenWebRX containers
+
+Installer automatically detects containers.
+
+Select the correct container during installation.
+
+---
+
+# Roadmap
+
+Planned future extensions:
+
+- GPU accelerated renderer
+- Advanced waterfall modes
+- SDRangel style rendering
+- Camera presets
+- Split rendering modes
+- Modern DNX frontend integration
+- Extended realtime controls
+
+---
+
+# DNX Ecosystem
+
+Related DNX projects:
+
+- DNX-Statusbar
+- DNX-3D-Tool
+- DNX-noVNC
+- DNX-Waterfall
+- DNX Runtime Frontend Extensions
+
+---
+
+# License
+
+MIT License
+
+Copyright (c) 2026 KanotixPinguin
