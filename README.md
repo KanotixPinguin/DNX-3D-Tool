@@ -30,3 +30,38 @@ DNX-3D-Tool works as a runtime frontend extension.
 It does NOT replace or modify OpenWebRX DSP processing.
 
 The extension injects a movable DNX frontend layer on top of OpenWebRX.
+
+
+
+
+
+---
+
+## Movable DNX Button
+
+- Draggable launcher button
+- Persistent position via localStorage
+- DNX statusbar color styling
+- Floating runtime UI
+
+---
+
+## Realtime 3D Rendering
+
+- Canvas based rendering
+- Live visualization
+- Runtime rendering pipeline
+- Expandable architecture for future GPU/WebGL modes
+
+---
+
+## Multi Container Support
+
+Installer automatically detects OpenWebRX containers.
+
+Examples:
+
+- owrx-8010
+- owrx-8011
+- owrx-8015
+- owrxp
