@@ -33,9 +33,15 @@ echo
 echo "Using container: $CONTAINER"
 echo
 
-docker cp dnx_3d.js "$CONTAINER":/usr/lib/python3/dist-packages/htdocs/static/dnx_3d.js
+docker exec "$CONTAINER" sh -c '
+mkdir -p /usr/lib/python3/dist-packages/htdocs/plugins/receiver/dnx_3dtool
 
-docker exec "$CONTAINER" sh -c 'grep -q dnx_3d.js /usr/lib/python3/dist-packages/htdocs/index.html || sed -i "s#</body>#<script src=\"/static/static/dnx_3d.js\"></script>\n</body>#" /usr/lib/python3/dist-packages/htdocs/index.html'
+sed -i "/dnx_3d.js/d" /usr/lib/python3/dist-packages/htdocs/index.html
+
+rm -f /usr/lib/python3/dist-packages/htdocs/static/dnx_3d.js
+'
+
+docker cp plugin.js "$CONTAINER":/usr/lib/python3/dist-packages/htdocs/plugins/receiver/dnx_3dtool/plugin.js
 
 docker restart "$CONTAINER"
 
