@@ -87,7 +87,7 @@ function build(){
 
  let header=document.createElement("div");
 
- header.innerHTML="3D TOOL";
+ header.innerHTML="DNX 3D TOOL";
 
  header.style.cssText=
   "height:38px;" +
