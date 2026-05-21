@@ -39,6 +39,8 @@ mkdir -p /usr/lib/python3/dist-packages/htdocs/plugins/receiver/dnx_3dtool
 sed -i "/dnx_3d.js/d" /usr/lib/python3/dist-packages/htdocs/index.html
 
 rm -f /usr/lib/python3/dist-packages/htdocs/static/dnx_3d.js
+
+rm -f /usr/lib/python3/dist-packages/htdocs/plugins/receiver/dnx_3dtool.js
 '
 
 docker cp plugin.js "$CONTAINER":/usr/lib/python3/dist-packages/htdocs/plugins/receiver/dnx_3dtool/plugin.js
